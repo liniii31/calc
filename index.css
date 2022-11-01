@@ -1,0 +1,29 @@
+.App{
+    margin:auto;
+    width:450px;
+    height:450px;
+  }
+  h1{
+    
+    text-align: center;
+  }
+  .calc{
+    margin:10px;
+    width: calc(100% - 10px);
+    display: grid;
+    grid-template-columns: 120px 120px 120px 50px ;
+  }
+  .input, .button{
+     
+     border : 1px solid black;
+  }
+  .input{
+    grid-column : 1/span 3;
+    padding-left : 10px;
+  }
+  .button{
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    margin :2px;
+  }
